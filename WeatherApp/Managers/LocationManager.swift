@@ -10,7 +10,5 @@ import Foundation
 
 
 final class LocationManager: NSObject {
-    static let shared = LocationManager() 
-        
-    private init() {}
+    static let shared = LocationManager()
 }
