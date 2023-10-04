@@ -12,6 +12,8 @@
 		D70958282AC914E600FC4A29 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70958272AC914E600FC4A29 /* WeatherManager.swift */; };
 		D709582A2ACB719800FC4A29 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70958292ACB719800FC4A29 /* SettingsViewController.swift */; };
 		D709582C2ACB723C00FC4A29 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709582B2ACB723C00FC4A29 /* TabViewController.swift */; };
+		D709582E2ACCED8100FC4A29 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709582D2ACCED8100FC4A29 /* CurrentWeatherView.swift */; };
+		D70958302ACCEEE400FC4A29 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D709582F2ACCEEE400FC4A29 /* SettingsView.swift */; };
 		D77EC9032AC757250022C374 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EC9022AC757250022C374 /* AppDelegate.swift */; };
 		D77EC9052AC757250022C374 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EC9042AC757250022C374 /* SceneDelegate.swift */; };
 		D77EC9072AC757250022C374 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EC9062AC757250022C374 /* WeatherViewController.swift */; };
@@ -25,6 +27,8 @@
 		D70958272AC914E600FC4A29 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		D70958292ACB719800FC4A29 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D709582B2ACB723C00FC4A29 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		D709582D2ACCED8100FC4A29 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		D709582F2ACCEEE400FC4A29 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		D77EC8FF2AC757250022C374 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77EC9022AC757250022C374 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D77EC9042AC757250022C374 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		D709581D2AC78DD700FC4A29 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D709582D2ACCED8100FC4A29 /* CurrentWeatherView.swift */,
+				D709582F2ACCEEE400FC4A29 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,7 +208,9 @@
 				D709582C2ACB723C00FC4A29 /* TabViewController.swift in Sources */,
 				D70958282AC914E600FC4A29 /* WeatherManager.swift in Sources */,
 				D70958242AC9149B00FC4A29 /* LocationManager.swift in Sources */,
+				D709582E2ACCED8100FC4A29 /* CurrentWeatherView.swift in Sources */,
 				D709582A2ACB719800FC4A29 /* SettingsViewController.swift in Sources */,
+				D70958302ACCEEE400FC4A29 /* SettingsView.swift in Sources */,
 				D70958262AC914BC00FC4A29 /* IAPManager.swift in Sources */,
 				D77EC9072AC757250022C374 /* WeatherViewController.swift in Sources */,
 				D77EC9032AC757250022C374 /* AppDelegate.swift in Sources */,
