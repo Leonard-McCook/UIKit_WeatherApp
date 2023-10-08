@@ -11,9 +11,9 @@ struct SettingsViewViewModel {
     let options: [SettingOption]
 }
 
-enum SettingOption {
+enum SettingOption: CaseIterable {
     case upgrade
-    case privacy
+    case privacyPolicy
     case terms
     case contact
     case getHelp
@@ -23,7 +23,7 @@ enum SettingOption {
         switch self {
         case .upgrade:
             return "Upgrade to Pro"
-        case .privacy:
+        case .privacyPolicy:
             return "Privacy Policy"
         case .terms:
             return "Terms of Use"
