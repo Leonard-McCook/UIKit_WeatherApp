@@ -55,7 +55,6 @@ final class SettingsView: UIView, UITableViewDelegate, UITableViewDataSource {
         if let viewModel {
             cell.textLabel?.text = viewModel.options[indexPath.row].title
         }
-        cell.textLabel?.text = "Test"
         return cell
     }
     
