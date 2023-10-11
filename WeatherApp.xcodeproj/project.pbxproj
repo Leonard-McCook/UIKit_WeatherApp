@@ -20,6 +20,7 @@
 		D77EC90C2AC757280022C374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EC90B2AC757280022C374 /* Assets.xcassets */; };
 		D77EC90F2AC757280022C374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77EC90D2AC757280022C374 /* LaunchScreen.storyboard */; };
 		D79EE5312AD200CF0065D2BA /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */; };
+		D79EE5332AD63DB90065D2BA /* CurrentWeatherSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D77EC9102AC757280022C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77EC9162AC75CCF0022C374 /* WeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherApp.entitlements; sourceTree = "<group>"; };
 		D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
+		D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */,
+				D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				D70958262AC914BC00FC4A29 /* IAPManager.swift in Sources */,
 				D77EC9072AC757250022C374 /* WeatherViewController.swift in Sources */,
 				D77EC9032AC757250022C374 /* AppDelegate.swift in Sources */,
+				D79EE5332AD63DB90065D2BA /* CurrentWeatherSection.swift in Sources */,
 				D77EC9052AC757250022C374 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
