@@ -21,6 +21,9 @@
 		D77EC90F2AC757280022C374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77EC90D2AC757280022C374 /* LaunchScreen.storyboard */; };
 		D79EE5312AD200CF0065D2BA /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */; };
 		D79EE5332AD63DB90065D2BA /* CurrentWeatherSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */; };
+		D79EE5362AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5352AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift */; };
+		D79EE5382AD8908A0065D2BA /* DailyWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5372AD8908A0065D2BA /* DailyWeatherCollectionViewCell.swift */; };
+		D79EE53A2AD890B50065D2BA /* HourlyWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5392AD890B50065D2BA /* HourlyWeatherCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		D77EC9162AC75CCF0022C374 /* WeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherApp.entitlements; sourceTree = "<group>"; };
 		D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 		D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherSection.swift; sourceTree = "<group>"; };
+		D79EE5352AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		D79EE5372AD8908A0065D2BA /* DailyWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		D79EE5392AD890B50065D2BA /* HourlyWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 		D709581D2AC78DD700FC4A29 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D79EE5342AD88CAD0065D2BA /* WeatherCells */,
 				D709582D2ACCED8100FC4A29 /* CurrentWeatherView.swift */,
 				D709582F2ACCEEE400FC4A29 /* SettingsView.swift */,
 			);
@@ -141,6 +148,16 @@
 			path = WeatherApp;
 			sourceTree = "<group>";
 		};
+		D79EE5342AD88CAD0065D2BA /* WeatherCells */ = {
+			isa = PBXGroup;
+			children = (
+				D79EE5352AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift */,
+				D79EE5372AD8908A0065D2BA /* DailyWeatherCollectionViewCell.swift */,
+				D79EE5392AD890B50065D2BA /* HourlyWeatherCollectionViewCell.swift */,
+			);
+			path = WeatherCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,11 +235,14 @@
 				D709582A2ACB719800FC4A29 /* SettingsViewController.swift in Sources */,
 				D70958302ACCEEE400FC4A29 /* SettingsView.swift in Sources */,
 				D79EE5312AD200CF0065D2BA /* SettingsViewViewModel.swift in Sources */,
+				D79EE5382AD8908A0065D2BA /* DailyWeatherCollectionViewCell.swift in Sources */,
 				D70958262AC914BC00FC4A29 /* IAPManager.swift in Sources */,
 				D77EC9072AC757250022C374 /* WeatherViewController.swift in Sources */,
 				D77EC9032AC757250022C374 /* AppDelegate.swift in Sources */,
 				D79EE5332AD63DB90065D2BA /* CurrentWeatherSection.swift in Sources */,
+				D79EE53A2AD890B50065D2BA /* HourlyWeatherCollectionViewCell.swift in Sources */,
 				D77EC9052AC757250022C374 /* SceneDelegate.swift in Sources */,
+				D79EE5362AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
