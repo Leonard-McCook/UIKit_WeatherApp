@@ -15,13 +15,13 @@ class SettingsViewController: UIViewController {
         view.configure(with: viewModel)
         return view
     }()
-    
+
     override func viewDidLoad() {
-        primaryView.delegate = self
         super.viewDidLoad()
+        primaryView.delegate = self
         setUpView()
     }
-    
+
     private func setUpView() {
         view.backgroundColor = .systemBackground
 
@@ -33,12 +33,10 @@ class SettingsViewController: UIViewController {
             primaryView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
         ])
     }
-
 }
 
 extension SettingsViewController: SettingsViewDelegate {
     func settingsView(_ settingsView: SettingsView, didTap option: SettingOption) {
-        print("Handling...")
         switch option {
         case .upgrade:
             break

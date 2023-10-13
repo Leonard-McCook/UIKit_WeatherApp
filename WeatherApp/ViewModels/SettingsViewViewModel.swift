@@ -18,7 +18,7 @@ enum SettingOption: CaseIterable {
     case contact
     case getHelp
     case rateApp
-    
+
     var title: String {
         switch self {
         case .upgrade:
