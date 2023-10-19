@@ -5,15 +5,17 @@
 //  Created by Leonard McCook-Carr on 9/29/23.
 //
 
+import RevenueCat
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Purchases.logLevel = .debug
+        Purchases.configure(withAPIKey: "appl_VmXKcNpMsBYUMlNZxHXFfBeNOXW")
+
         return true
     }
 
@@ -33,4 +35,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
