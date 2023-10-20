@@ -19,6 +19,7 @@
 		D77EC9072AC757250022C374 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77EC9062AC757250022C374 /* WeatherViewController.swift */; };
 		D77EC90C2AC757280022C374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77EC90B2AC757280022C374 /* Assets.xcassets */; };
 		D77EC90F2AC757280022C374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77EC90D2AC757280022C374 /* LaunchScreen.storyboard */; };
+		D7807FCA2AE3071D0046B3A4 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = D7807FC92AE3071D0046B3A4 /* StoreKitTestCertificate.cer */; };
 		D79EE5312AD200CF0065D2BA /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */; };
 		D79EE5332AD63DB90065D2BA /* CurrentWeatherSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */; };
 		D79EE5362AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79EE5352AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift */; };
@@ -50,6 +51,8 @@
 		D77EC90E2AC757280022C374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77EC9102AC757280022C374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77EC9162AC75CCF0022C374 /* WeatherApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherApp.entitlements; sourceTree = "<group>"; };
+		D7807FC62AE2DF1D0046B3A4 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		D7807FC92AE3071D0046B3A4 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = StoreKitTestCertificate.cer; path = ../../../../StoreKitTestCertificate.cer; sourceTree = "<group>"; };
 		D79EE5302AD200CF0065D2BA /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 		D79EE5322AD63DB90065D2BA /* CurrentWeatherSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherSection.swift; sourceTree = "<group>"; };
 		D79EE5352AD88CF00065D2BA /* CurrentWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				D77EC90B2AC757280022C374 /* Assets.xcassets */,
 				D77EC90D2AC757280022C374 /* LaunchScreen.storyboard */,
 				D77EC9022AC757250022C374 /* AppDelegate.swift */,
+				D7807FC62AE2DF1D0046B3A4 /* Configuration.storekit */,
+				D7807FC92AE3071D0046B3A4 /* StoreKitTestCertificate.cer */,
 				D77EC9042AC757250022C374 /* SceneDelegate.swift */,
 			);
 			path = Other;
@@ -247,6 +252,7 @@
 			files = (
 				D77EC90F2AC757280022C374 /* LaunchScreen.storyboard in Resources */,
 				D77EC90C2AC757280022C374 /* Assets.xcassets in Resources */,
+				D7807FCA2AE3071D0046B3A4 /* StoreKitTestCertificate.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
