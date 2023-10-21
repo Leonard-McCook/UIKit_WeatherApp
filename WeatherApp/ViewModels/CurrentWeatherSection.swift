@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum CurrentWeatherSection {
+enum CurrentWeatherSection: CaseIterable {
     case current
     case hourly
     case daily
