@@ -102,13 +102,6 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		D709581F2AC78E1D00FC4A29 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		D70958202AC78E4A00FC4A29 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +157,6 @@
 				D70958222AC78F9700FC4A29 /* Managers */,
 				D70958212AC78E5600FC4A29 /* Other */,
 				D70958202AC78E4A00FC4A29 /* Controllers */,
-				D709581F2AC78E1D00FC4A29 /* Models */,
 				D709581E2AC78E0C00FC4A29 /* ViewModels */,
 				D709581D2AC78DD700FC4A29 /* Views */,
 				D77EC9162AC75CCF0022C374 /* WeatherApp.entitlements */,
